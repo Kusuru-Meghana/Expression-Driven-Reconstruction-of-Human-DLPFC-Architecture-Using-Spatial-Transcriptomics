@@ -72,13 +72,16 @@ Post-correction embeddings demonstrated strong sample mixing, indicating that re
 
 ## Spatial Quantification
 
-Spatial structure was evaluated using Moran’s I to measure global spatial autocorrelation.
+Spatial structure was evaluated using Moran’s I to measure global spatial autocorrelation of the integrated Leiden clusters.
 
-Observed maximum Moran’s I ≈ 0.07.
+Observed Moran’s I = 0.24
+p < 0.01
 
-In layered cortical tissue, moderate positive autocorrelation reflects biologically realistic gradient-based organization rather than sharply bounded compartments.
+An I value of 0.24 indicates moderate spatial structure, meaning neighboring spots are significantly more similar than expected by chance.
 
-This quantitative validation supports the hypothesis that expression-defined clusters correspond to anatomical structure.
+In layered cortical tissue, moderate positive autocorrelation reflects biologically realistic gradient-based organization rather than artificially sharp compartment boundaries.
+
+This quantitative validation supports the hypothesis that expression-defined clusters correspond to reproducible anatomical domains.
 
 ## Key Outcomes
 
