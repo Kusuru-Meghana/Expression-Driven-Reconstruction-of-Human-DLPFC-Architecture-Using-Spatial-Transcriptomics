@@ -10,7 +10,7 @@ Spatial information was used only for downstream validation.
 
 ## Research Question
 
-Can intrinsic transcriptional similarity recover spatially coherent cortical domains without spatial priors?
+Can intrinsic transcriptional similarity alone recover spatially coherent cortical domains without incorporating spatial priors?
 
 ## Dataset
 
@@ -68,7 +68,7 @@ To assess reproducibility across tissue sections:
 
 - Re-clustering of merged dataset
 
-Post-correction embeddings demonstrated strong sample mixing, indicating that recovered domains were not driven by batch effects.
+Post-correction embeddings demonstrated strong cross-sample mixing while preserving biologically meaningful structure.
 
 ## Spatial Quantification
 
@@ -77,7 +77,7 @@ Spatial structure was evaluated using Moran’s I to measure global spatial auto
 Observed Moran’s I = 0.24,
 p < 0.01
 
-An I value of 0.24 indicates moderate spatial structure, meaning neighboring spots are significantly more similar than expected by chance.
+An I value of 0.24 indicates moderate spatial autocorrelation, meaning neighboring spots are significantly more similar than expected under spatial randomness.
 
 In layered cortical tissue, moderate positive autocorrelation reflects biologically realistic gradient-based organization rather than artificially sharp compartment boundaries.
 
