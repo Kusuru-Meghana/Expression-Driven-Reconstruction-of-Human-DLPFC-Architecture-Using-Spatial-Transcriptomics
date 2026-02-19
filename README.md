@@ -74,7 +74,7 @@ Post-correction embeddings demonstrated strong sample mixing, indicating that re
 
 Spatial structure was evaluated using Moran’s I to measure global spatial autocorrelation of the integrated Leiden clusters.
 
-Observed Moran’s I = 0.24
+Observed Moran’s I = 0.24,
 p < 0.01
 
 An I value of 0.24 indicates moderate spatial structure, meaning neighboring spots are significantly more similar than expected by chance.
